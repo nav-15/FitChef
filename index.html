@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fit Chef Australia — Ready Fresh Meals, Delivered.</title>
+<!--
+  FONT: Vera Pro (Adobe Fonts) is the official Fit Chef typeface.
+  To activate: add Adobe Fonts <link> kit + change --font-display to 'vera-pro'.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Syne:wght@700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cur" aria-hidden="true"></div>
+<div id="prog" aria-hidden="true"></div>
+
+<!-- ════ NAV ════ -->
+<nav class="nav" role="navigation" aria-label="Main">
+  <a class="brand" href="#" aria-label="Fit Chef home">
+    <img src="images/logo-mark-white.svg" alt="" width="47" height="42">
+    <span>Fit Chef</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+  </ul>
+  <a class="nav-btn" href="#">
+    <span class="nav-dot" aria-hidden="true"></span>Order Now
+  </a>
+</nav>
+
+<!-- ════ HERO — pure typographic ════ -->
+<section class="hero" aria-label="Fit Chef hero">
+  <div class="hero-blob" aria-hidden="true"></div>
+  <div class="hero-ring r1" aria-hidden="true"></div>
+  <div class="hero-ring r2" aria-hidden="true"></div>
+  <div class="hero-ring r3" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-eye">
+      <span class="eye-dot" aria-hidden="true"></span>
+      Made fresh in Adelaide
+    </div>
+
+    <h1 class="hero-h1">
+      <span class="line-wrap"><span class="line">HEALTHY</span></span>
+      <span class="line-wrap"><span class="line">MEALS,</span></span>
+      <span class="line-wrap"><span class="line teal italic">crazy good</span></span>
+      <span class="line-wrap"><span class="line">TASTE.</span></span>
+    </h1>
+
+    <div class="hero-rule" aria-hidden="true"></div>
+
+    <div class="hero-bottom">
+      <p class="hero-sub">Chef-prepared, macro-balanced meals delivered to your door. No prep. No mess. Just heat and eat.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-fill" href="#menu">View the Menu →</a>
+        <a class="btn btn-ghost" href="#how">See How It Works</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span class="sc-line"></span>
+    SCROLL <span class="sc-arr">↓</span>
+  </div>
+</section>
+
+<!-- ════ MARQUEE (two rows) ════ -->
+<div class="mq" aria-hidden="true">
+  <div class="mq-track">
+    <span>CHEF PREPARED <span class="mq-dot"></span> MACRO BALANCED <span class="mq-dot"></span> MADE IN ADELAIDE <span class="mq-dot"></span> FRESH DAILY <span class="mq-dot"></span> GOAL ORIENTATED <span class="mq-dot"></span> DELIVERED WEEKLY <span class="mq-dot"></span></span>
+    <span>CHEF PREPARED <span class="mq-dot"></span> MACRO BALANCED <span class="mq-dot"></span> MADE IN ADELAIDE <span class="mq-dot"></span> FRESH DAILY <span class="mq-dot"></span> GOAL ORIENTATED <span class="mq-dot"></span> DELIVERED WEEKLY <span class="mq-dot"></span></span>
+  </div>
+  <div class="mq-track reverse">
+    <span>ZERO PRESERVATIVES <span class="mq-dot"></span> HIGH PROTEIN <span class="mq-dot"></span> LOCALLY SOURCED <span class="mq-dot"></span> HEAT IN 2 MINUTES <span class="mq-dot"></span> NO MEAL PREP <span class="mq-dot"></span> REAL INGREDIENTS <span class="mq-dot"></span></span>
+    <span>ZERO PRESERVATIVES <span class="mq-dot"></span> HIGH PROTEIN <span class="mq-dot"></span> LOCALLY SOURCED <span class="mq-dot"></span> HEAT IN 2 MINUTES <span class="mq-dot"></span> NO MEAL PREP <span class="mq-dot"></span> REAL INGREDIENTS <span class="mq-dot"></span></span>
+  </div>
+</div>
+
+<!-- ════ EXPLOSION SCROLL SCENE ════ -->
+<section class="ex-section" id="how" aria-label="How it works">
+  <div class="ex-stage" id="exStage">
+
+    <div class="ex-grid" aria-hidden="true"></div>
+
+    <!-- Step pill top-left -->
+    <div class="ex-step-pill" id="exStep" aria-hidden="true">
+      <span class="esp-num" id="exStepNum">01</span>
+      <span class="esp-lbl" id="exStepLbl">BUILDING THE DISH</span>
+    </div>
+
+    <!-- Opening title -->
+    <div class="ex-title" aria-hidden="true">
+      <div class="et-eye" id="etEye">~ built layer by layer ~</div>
+      <h2 class="et-h" id="etH">ROAST<br><em>CHICKEN</em></h2>
+    </div>
+
+    <!-- Full scroll-scrubbed sequence: build → assemble → seal → box → deliver -->
+    <div class="fall-seq" id="fallSeq" aria-hidden="true">
+      <img src="images/01_plate_sauce.png"                            class="fall-img fi-active" alt="Plate with sauce">
+      <img src="images/02_potatoes_enter.png"                         class="fall-img" alt="Potatoes falling in">
+      <img src="images/03_chicken_enter.png"                          class="fall-img" alt="Chicken entering">
+      <img src="images/04_veg_enter.png"                              class="fall-img" alt="Vegetables entering">
+      <img src="images/05_full_stack_high.png"                        class="fall-img" alt="All components high">
+      <img src="images/06_descending_toward_plate.png"                class="fall-img" alt="Descending to plate">
+      <img src="images/07_floating_meal_in_vibrant_motion.png"        class="fall-img" alt="Meal in motion">
+      <img src="images/08_plated_meal_with_flying_herbs_and_sauce.png" class="fall-img" alt="Plated meal">
+      <img src="images/09_roasted_chicken_with_vegetables_and_gravy.png" class="fall-img" alt="Roast chicken plated">
+      <img src="images/10_healthy_and_fresh_ready_meal_pack.png"      class="fall-img" alt="Meal pack">
+      <img src="images/11_packaged_roast_chicken_meal_tray.png"       class="fall-img" alt="Meal tray angled">
+      <img src="images/12_fit_chef_ready_meal_with_roast_chicken.png" class="fall-img" alt="Sealed meal tray">
+      <img src="images/13_ready_meal_tray_above_fit_chef_box.png"     class="fall-img" alt="Tray above open box">
+      <img src="images/14_fit_chef_ready_meal_packaging_shot.png" class="fall-img" alt="Box open with meal">
+      <img src="images/ChatGPT%20Image%20May%208,%202026,%2012_57_10%20AM.png" class="fall-img" alt="Box closing">
+      <img src="images/fit_chef_closed_box_no_bg.png" class="fall-img" alt="Box sealed">
+    </div>
+    <div class="build-labels reverse" id="buildLabels" aria-hidden="true">
+      <div class="build-label" data-build-label="3">
+        <span class="build-label-num">4</span>
+        <span class="build-label-copy">Greens</span>
+      </div>
+      <div class="build-label" data-build-label="2">
+        <span class="build-label-num">3</span>
+        <span class="build-label-copy">Grilled chicken breast</span>
+      </div>
+      <div class="build-label" data-build-label="1">
+        <span class="build-label-num">2</span>
+        <span class="build-label-copy">Roasted potatoes</span>
+      </div>
+      <div class="build-label" data-build-label="0">
+        <span class="build-label-num">1</span>
+        <span class="build-label-copy">Plate and gravy</span>
+      </div>
+    </div>
+
+    <div class="ex-center-info" id="exInfo" aria-hidden="true">
+      <div class="eci-tag">EVERY INGREDIENT</div>
+      <div class="eci-big">100%<br>FRESH</div>
+      <div class="eci-sub">Zero preservatives · Locally sourced · Cooked daily in Adelaide</div>
+      <div class="eci-stats">
+        <div class="eci-stat"><span class="ecs-n">30g+</span><span class="ecs-l">PROTEIN</span></div>
+        <div class="eci-stat"><span class="ecs-n">0</span><span class="ecs-l">PRESERVATIVES</span></div>
+        <div class="eci-stat"><span class="ecs-n">2 MIN</span><span class="ecs-l">TO HEAT</span></div>
+      </div>
+    </div>
+
+    <div class="ex-phase-info" id="phi1" aria-hidden="true">
+      <div class="phi-step">STEP 01</div>
+      <h3>BUILT LAYER<br><em>BY LAYER</em></h3>
+      <p>Fresh ingredients, stacked by hand. No shortcuts, no compromises.</p>
+    </div>
+    <div class="ex-phase-info" id="phi2" aria-hidden="true">
+      <div class="phi-step">STEP 02</div>
+      <h3>SEALED IN A<br><em>MEAL CONTAINER</em></h3>
+      <p>Heat-sealed and macro-balanced — ready in 2 minutes flat.</p>
+    </div>
+    <div class="ex-phase-info" id="phi3" aria-hidden="true">
+      <div class="phi-step">STEP 03</div>
+      <h3>PACKED IN YOUR<br><em>DELIVERY BOX</em></h3>
+      <p>Insulated, fresh, and arriving at your door every week.</p>
+    </div>
+    <div class="ex-phase-info" id="phi4" aria-hidden="true">
+      <div class="phi-step">STEP 04</div>
+      <h3>DELIVERED<br><em>TO YOUR DOOR</em></h3>
+      <p>Order Sunday · Delivered Monday · Heat 2 mins · Eat well.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════ MENU ════ -->
+<section class="menu-sec" id="menu" aria-label="Our menu">
+  <div class="s-label reveal">~ the menu ~</div>
+  <h2 class="s-h reveal">A menu worth<br><em>obsessing over.</em></h2>
+  <div class="menu-grid">
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-roast-chicken.jpg" alt="Roast Chicken" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Best Seller</div><div class="mc-name">Roast Chicken</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-laksa-bowl.jpg" alt="Laksa Bowl" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Spicy</div><div class="mc-name">Laksa Bowl</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-garlic-prawns.jpg" alt="Garlic Prawns" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Seafood</div><div class="mc-name">Garlic Prawns</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-biryani.jpg" alt="Biryani" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Indian</div><div class="mc-name">Chicken Biryani</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-tofu-curry.jpg" alt="Tofu Curry" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Vegan</div><div class="mc-name">Tofu Malaysian Curry</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-taco-bowl.jpg" alt="Taco Bowl" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">High Protein</div><div class="mc-name">Taco Bowl</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-chimichurri-steak.jpg" alt="Chimichurri Steak" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">Premium</div><div class="mc-name">Chimichurri Steak</div></div></div>
+    <div class="mc" tabindex="0"><div class="mc-img"><img src="images/product-burger-bowl.jpg" alt="Burger Bowl" loading="lazy"></div><div class="mc-info"><div class="mc-lbl">New</div><div class="mc-name">Burger Bowl</div></div></div>
+  </div>
+</section>
+
+<!-- ════ WHY ════ -->
+<section class="why-sec" id="why" aria-label="Why Fit Chef">
+  <div class="s-label reveal">~ why fit chef? ~</div>
+  <h2 class="s-h reveal">Real food, made by<br><em>real chefs.</em></h2>
+  <div class="why-grid">
+    <div class="wc"><div class="wc-img"><img src="images/lifestyle-three-plates.jpg" alt="Three Fit Chef plates" loading="lazy"></div><div class="wc-tag">Chef Prepared</div><h3>Talented in-house chefs</h3><p>Crafted from fresh, local ingredients — built to satisfy and energise your day.</p></div>
+    <div class="wc"><div class="wc-img"><img src="images/lifestyle-three-packs-green.jpg" alt="Meal packs" loading="lazy"></div><div class="wc-tag">Macro Balanced</div><h3>Built for your goals</h3><p>Lean proteins, fresh veg, whole grains — every macro tuned to fuel you right.</p></div>
+    <div class="wc"><div class="wc-img"><img src="images/kitchen-box.jpg" alt="Delivery box" loading="lazy"></div><div class="wc-tag">Convenient</div><h3>Heat, eat, repeat</h3><p>Fresh meals to your doorstep. Skip the shopping, skip the prep.</p></div>
+    <div class="wc"><div class="wc-img"><img src="images/lifestyle-spread.jpg" alt="Meal spread" loading="lazy"></div><div class="wc-tag">Goal Orientated</div><h3>Whatever your why</h3><p>Shred fat, build muscle, or just eat well. Plans for every fitness journey.</p></div>
+  </div>
+</section>
+
+<!-- ════ LIFESTYLE STRIP ════ -->
+<section class="life" aria-label="Made in Adelaide">
+  <div class="life-bg" id="lifeBg" aria-hidden="true"></div>
+  <div class="life-c">
+    <div class="s-label">~ proudly Adelaide ~</div>
+    <h2 class="reveal">Made local. Made <em>with care.</em></h2>
+  </div>
+</section>
+
+<!-- ════ TESTIMONIALS ════ -->
+<section class="testi" id="reviews" aria-label="Customer reviews">
+  <div class="s-label reveal">~ real customers ~</div>
+  <h2 class="s-h reveal">What people are<br><em>actually saying.</em></h2>
+  <div class="t-grid">
+    <div class="tc"><div class="tc-stars" aria-label="5 stars">★★★★★</div><blockquote>"Best pre-made meals out there. Always have that fresh, home-cooked feel — unlike others that taste frozen."</blockquote><div class="tc-auth"><div class="tc-av" aria-hidden="true">SN</div><div><div class="tc-name">Serena Nicolay</div><div class="tc-loc">Adelaide</div></div></div></div>
+    <div class="tc"><div class="tc-stars" aria-label="5 stars">★★★★★</div><blockquote>"The quality is unparalleled. The tahini meal is a game changer. And don't get me started on the Jamaican chicken."</blockquote><div class="tc-auth"><div class="tc-av" aria-hidden="true">DM</div><div><div class="tc-name">Daniel Moody</div><div class="tc-loc">Adelaide</div></div></div></div>
+    <div class="tc"><div class="tc-stars" aria-label="5 stars">★★★★★</div><blockquote>"Great food. Fresh food. Tasty food. Always delivered on time in insulated boxes. Highly recommended."</blockquote><div class="tc-auth"><div class="tc-av" aria-hidden="true">AR</div><div><div class="tc-name">Art Rou</div><div class="tc-loc">Adelaide</div></div></div></div>
+  </div>
+</section>
+
+<!-- ════ FINAL CTA ════ -->
+<section class="cta-sec" aria-label="Order now">
+  <div class="cta-orb co1" aria-hidden="true"><img src="images/product-burger-bowl.jpg" alt="" loading="lazy"></div>
+  <div class="cta-orb co2" aria-hidden="true"><img src="images/product-laksa-bowl.jpg" alt="" loading="lazy"></div>
+  <div class="cta-orb co3" aria-hidden="true"><img src="images/product-vegan-penne.jpg" alt="" loading="lazy"></div>
+  <div class="cta-orb co4" aria-hidden="true"><img src="images/product-garlic-prawns.jpg" alt="" loading="lazy"></div>
+  <h2 id="ctaH2">
+    <span class="cta-word-wrap"><span class="cta-word-inner">HUNGRY?</span></span><br>
+    <em>
+      <span class="cta-word-wrap"><span class="cta-word-inner">LET'S</span></span>
+      <span class="cta-word-wrap"><span class="cta-word-inner">&nbsp;GO.</span></span>
+    </em>
+  </h2>
+  <p class="reveal">Skip the prep, skip the dishes, skip the guilt.<br>Crazy good meals. Delivered weekly.</p>
+  <a class="btn btn-fill reveal" href="#">Browse the Menu →</a>
+</section>
+
+<footer class="footer">
+  © 2026 FIT CHEF AUSTRALIA &nbsp;·&nbsp; MADE FRESH IN ADELAIDE &nbsp;·&nbsp; CONCEPT LANDING PAGE
+</footer>
+
+<!-- ════ GSAP ════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
